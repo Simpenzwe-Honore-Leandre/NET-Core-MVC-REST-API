@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "q9VnfnsM5A/xpTyjyb2gL6AKm3WKdyhgi7vnmE9Pxq6VpVB1RUFL3BC4BaCZePMno3wmzZWTWrdO8Zlb3xF4LQ==",
+  "success": true,
+  "projectFilePath": "/home/simpenzwe_honore_leandre/M_PROJECTS/NET-Core-6-MVC-REST-API/Leandre/Leandre.csproj",
+  "expectedPackageFiles": [
+    "/home/simpenzwe_honore_leandre/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/simpenzwe_honore_leandre/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/simpenzwe_honore_leandre/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/simpenzwe_honore_leandre/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/simpenzwe_honore_leandre/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/simpenzwe_honore_leandre/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
