@@ -1,5 +1,7 @@
-var builder = WebApplication.CreateBuilder(args);
+using Leandre.Data;
 
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<ILeandreRepo , MockLeandreRepo>();
 // Add services to the container.
 
 builder.Services.AddControllers();
