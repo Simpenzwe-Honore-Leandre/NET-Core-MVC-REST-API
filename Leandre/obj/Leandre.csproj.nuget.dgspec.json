@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/simpenzwe_honore_leandre/M_PROJECTS/NET-Core-6-MVC-REST-API/Leandre/Leandre.csproj": {}
+    "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\MLH\\NET-Core-6-MVC-REST-API\\Leandre\\Leandre.csproj": {}
   },
   "projects": {
-    "/home/simpenzwe_honore_leandre/M_PROJECTS/NET-Core-6-MVC-REST-API/Leandre/Leandre.csproj": {
+    "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\MLH\\NET-Core-6-MVC-REST-API\\Leandre\\Leandre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/simpenzwe_honore_leandre/M_PROJECTS/NET-Core-6-MVC-REST-API/Leandre/Leandre.csproj",
+        "projectUniqueName": "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\MLH\\NET-Core-6-MVC-REST-API\\Leandre\\Leandre.csproj",
         "projectName": "Leandre",
-        "projectPath": "/home/simpenzwe_honore_leandre/M_PROJECTS/NET-Core-6-MVC-REST-API/Leandre/Leandre.csproj",
-        "packagesPath": "/home/simpenzwe_honore_leandre/.nuget/packages/",
-        "outputPath": "/home/simpenzwe_honore_leandre/M_PROJECTS/NET-Core-6-MVC-REST-API/Leandre/obj/",
+        "projectPath": "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\MLH\\NET-Core-6-MVC-REST-API\\Leandre\\Leandre.csproj",
+        "packagesPath": "C:\\Users\\Leandre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\MLH\\NET-Core-6-MVC-REST-API\\Leandre\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/simpenzwe_honore_leandre/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Leandre\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -38,6 +38,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlserver": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -49,7 +63,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -61,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.111/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
