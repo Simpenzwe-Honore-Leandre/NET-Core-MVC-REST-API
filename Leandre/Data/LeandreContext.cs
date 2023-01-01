@@ -9,7 +9,7 @@ namespace Leandre.Data
         }
 
         public Dbset<command> Commands { get; set; }
-        
+            
 
     }
 }
