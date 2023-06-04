@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Algorithms.Controllers
 {
     //routes and corresponding are unique
-    [Route("api/Algorithms")]
+    [Route("api/v1/Algorithms")]
     public class AlgorithmsController : ControllerBase
     {
         private readonly IAlgorithmRepo _repository;

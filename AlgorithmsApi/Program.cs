@@ -8,12 +8,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+//Registering services which end after a transaction?
 builder.Services.AddScoped<IAlgorithmRepo, MockAlgorithmRepo>();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
 
 var sqlConBuilder = new SqlConnectionStringBuilder();
 sqlConBuilder.ConnectionString = builder.Configuration.GetConnectionString("AlgorithmDatabaseConnection");
@@ -25,6 +25,10 @@ builder.Services.AddDbContext<AlgorithmsContext>(opt =>
 {
     opt.UseSqlServer(sqlConBuilder.ConnectionString);
 });
+
+var app = builder.Build();
+
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

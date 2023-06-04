@@ -1,12 +1,19 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Algorithms.Models
 {   
      public class Algorithm
     {
+        [Key]
         public int Id { get; set; }
-        public string HowTo { get; set; } = default!;
-        public string Line {get; set; } = default!;
 
-        public string Platform { get; set; } = default!;
+        [Required]
+        [MaxLength(2000)]
+        public string? description { get; set; } 
+
+        
+        public string? usecases {get; set; } 
+
     }
 
 }
