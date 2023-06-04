@@ -39,7 +39,7 @@ namespace AlgorithmsApi.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("AlgorithmSet");
+                    b.ToTable("AlgorithmSet", (string)null);
                 });
 #pragma warning restore 612, 618
         }

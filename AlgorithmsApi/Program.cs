@@ -1,6 +1,7 @@
 using Algorithms.Data;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,12 +22,15 @@ sqlConBuilder.UserID = builder.Configuration["User ID"];
 sqlConBuilder.Password = builder.Configuration["Password"];
 sqlConBuilder.InitialCatalog = builder.Configuration["Initial Catalog"];
 
-builder.Services.AddDbContext<AlgorithmsContext>(opt =>
+builder.Services.AddDbContext<AlgorithmsContext>(options =>
 {
-    opt.UseSqlServer(sqlConBuilder.ConnectionString);
+    options.UseSqlServer(sqlConBuilder.ConnectionString);
 });
 
 var app = builder.Build();
+
+
+
 
 
 // Configure the HTTP request pipeline.
