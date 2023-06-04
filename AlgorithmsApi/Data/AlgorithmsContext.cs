@@ -1,7 +1,6 @@
 
 using Algorithms.Models;
 using Microsoft.EntityFrameworkCore;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace Algorithms.Data
 {
@@ -11,7 +10,8 @@ namespace Algorithms.Data
         {
             
         }
-        public DbSet<Algorithm> AlgorithmSet { get; set; }
+        //mapping objects to database in entity framework
+        public DbSet<Algorithm> ? AlgorithmSet { get; set; }
 
 
     }

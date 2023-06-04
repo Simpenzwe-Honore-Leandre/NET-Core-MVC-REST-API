@@ -8,9 +8,9 @@ namespace Algorithms.Controllers
     [Route("api/Algorithms")]
     public class AlgorithmsController : ControllerBase
     {
-        private readonly MockAlgorithmRepo _repository = new MockAlgorithmRepo();
+        private readonly IAlgorithmRepo _repository;
 
-        public AlgorithmsController(MockAlgorithmRepo repository)
+        public AlgorithmsController(IAlgorithmRepo repository)
         {
             _repository = repository;   
         }
@@ -20,9 +20,9 @@ namespace Algorithms.Controllers
         [HttpGet]
         public ActionResult <IEnumerable<Algorithm>> GetAllAlgorithms()
         {
-            var commandItems =  _repository.GetAppAlgorithms();
+            var AlgorithmItems =  _repository.GetAppAlgorithms();
             
-            return Ok(commandItems);
+            return Ok(AlgorithmItems);
         }
         
         //provides a route to ActionResult <Command> GetCommandById(int id)

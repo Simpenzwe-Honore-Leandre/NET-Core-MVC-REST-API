@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dtmWw/Ey0OJnzA+XySrgK91XnM8/ctNVn2DcyGhNTZHD61Ieep90+Bj6vuCUYY9h1ibe0WGXfOubOkI038fyDQ==",
+  "dgSpecHash": "33a4+wfcO5CSpW+SFs9HbgV6vPcdxxQZnKpuNIL3HkAS3xaoafQdG7Wc/Kiucn2v/Lm1PkYCxMu5JRXKCnf6kg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\AlgorithmApi\\AlgorithmsApi\\AlgorithmsApi.csproj",
+  "projectFilePath": "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\MLH\\NET-Core-6-MVC-REST-API\\AlgorithmsApi\\AlgorithmsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leandre\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Leandre\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

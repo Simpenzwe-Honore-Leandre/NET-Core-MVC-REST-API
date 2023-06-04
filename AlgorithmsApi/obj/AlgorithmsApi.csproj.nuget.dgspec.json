@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\AlgorithmApi\\AlgorithmsApi\\AlgorithmsApi.csproj": {}
+    "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\MLH\\NET-Core-6-MVC-REST-API\\AlgorithmsApi\\AlgorithmsApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\AlgorithmApi\\AlgorithmsApi\\AlgorithmsApi.csproj": {
+    "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\MLH\\NET-Core-6-MVC-REST-API\\AlgorithmsApi\\AlgorithmsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\AlgorithmApi\\AlgorithmsApi\\AlgorithmsApi.csproj",
+        "projectUniqueName": "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\MLH\\NET-Core-6-MVC-REST-API\\AlgorithmsApi\\AlgorithmsApi.csproj",
         "projectName": "AlgorithmsApi",
-        "projectPath": "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\AlgorithmApi\\AlgorithmsApi\\AlgorithmsApi.csproj",
+        "projectPath": "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\MLH\\NET-Core-6-MVC-REST-API\\AlgorithmsApi\\AlgorithmsApi.csproj",
         "packagesPath": "C:\\Users\\Leandre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\AlgorithmApi\\AlgorithmsApi\\obj\\",
+        "outputPath": "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\MLH\\NET-Core-6-MVC-REST-API\\AlgorithmsApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leandre\\AppData\\Roaming\\NuGet\\NuGet.Config"

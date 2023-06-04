@@ -3643,11 +3643,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\AlgorithmApi\\AlgorithmsApi\\AlgorithmsApi.csproj",
+      "projectUniqueName": "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\MLH\\NET-Core-6-MVC-REST-API\\AlgorithmsApi\\AlgorithmsApi.csproj",
       "projectName": "AlgorithmsApi",
-      "projectPath": "c:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\AlgorithmApi\\AlgorithmsApi\\AlgorithmsApi.csproj",
+      "projectPath": "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\MLH\\NET-Core-6-MVC-REST-API\\AlgorithmsApi\\AlgorithmsApi.csproj",
       "packagesPath": "C:\\Users\\Leandre\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\AlgorithmApi\\AlgorithmsApi\\obj\\",
+      "outputPath": "C:\\Users\\Leandre\\Me\\PERSONAL PROJECTS\\MLH\\NET-Core-6-MVC-REST-API\\AlgorithmsApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leandre\\AppData\\Roaming\\NuGet\\NuGet.Config"

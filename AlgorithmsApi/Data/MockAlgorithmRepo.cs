@@ -6,19 +6,19 @@ namespace Algorithms.Data
     {
         public IEnumerable<Algorithm> GetAppAlgorithms()
         {
-            var commands = new List<Algorithm>
+            var AlgorithmList = new List<Algorithm>
             {
                 new Algorithm{Id = 0, HowTo= "Read a letter" ,Line =  "Read a word" , Platform = "Kindle Ebook"},
                 new Algorithm{Id = 1, HowTo= "Read two letter" ,Line =  "Read Mistborn" , Platform = "Kindle Ebook"},
                 new Algorithm{Id = 2, HowTo= "Read three letter" ,Line =  "Read Stormlight" , Platform = "Kindle Ebook"},
             };
 
-            return commands;
+            return AlgorithmList;
         }
 
         public Algorithm GetAlgorithmById(int id)
         {
-            return new Algorithm{Id = 0, HowTo= "Read a letter" ,Line =  "Read a word" , Platform = "Kindle Ebook"};
+            return new Algorithm{Id = id, HowTo= "Read a letter" ,Line =  "Read a word" , Platform = "Kindle Ebook"};
         }
     
     }
