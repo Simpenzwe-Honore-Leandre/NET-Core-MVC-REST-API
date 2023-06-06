@@ -11,7 +11,7 @@ namespace Algorithms.Data
             
         }
         //mapping objects to database in entity framework
-        public DbSet<Algorithm>? AlgorithmSet { get; set; }
+        public DbSet<Algorithm> AlgorithmSet { get; set; } 
 
     }
 }

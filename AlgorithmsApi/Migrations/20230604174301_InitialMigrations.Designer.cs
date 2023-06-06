@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AlgorithmsApi.Migrations
 {
     [DbContext(typeof(AlgorithmsContext))]
-    [Migration("20230604132940_InitialMigrations")]
+    [Migration("20230604174301_InitialMigrations")]
     partial class InitialMigrations
     {
         /// <inheritdoc />
@@ -32,12 +32,18 @@ namespace AlgorithmsApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("algorithmname")
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
                     b.Property<string>("description")
                         .IsRequired()
                         .HasMaxLength(2000)
                         .HasColumnType("nvarchar(2000)");
 
                     b.Property<string>("usecases")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

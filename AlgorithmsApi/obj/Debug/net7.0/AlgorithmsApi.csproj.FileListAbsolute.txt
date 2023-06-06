@@ -148,3 +148,9 @@ C:\Users\Leandre\Me\PERSONAL PROJECTS\MLH\NET-Core-6-MVC-REST-API\AlgorithmsApi\
 C:\Users\Leandre\Me\PERSONAL PROJECTS\MLH\NET-Core-6-MVC-REST-API\AlgorithmsApi\obj\Debug\net7.0\AlgorithmsApi.pdb
 C:\Users\Leandre\Me\PERSONAL PROJECTS\MLH\NET-Core-6-MVC-REST-API\AlgorithmsApi\obj\Debug\net7.0\AlgorithmsApi.genruntimeconfig.cache
 C:\Users\Leandre\Me\PERSONAL PROJECTS\MLH\NET-Core-6-MVC-REST-API\AlgorithmsApi\obj\Debug\net7.0\ref\AlgorithmsApi.dll
+C:\Users\Leandre\Me\PERSONAL PROJECTS\MLH\NET-Core-6-MVC-REST-API\AlgorithmsApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Leandre\Me\PERSONAL PROJECTS\MLH\NET-Core-6-MVC-REST-API\AlgorithmsApi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Leandre\Me\PERSONAL PROJECTS\MLH\NET-Core-6-MVC-REST-API\AlgorithmsApi\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Leandre\Me\PERSONAL PROJECTS\MLH\NET-Core-6-MVC-REST-API\AlgorithmsApi\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Leandre\Me\PERSONAL PROJECTS\MLH\NET-Core-6-MVC-REST-API\AlgorithmsApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Leandre\Me\PERSONAL PROJECTS\MLH\NET-Core-6-MVC-REST-API\AlgorithmsApi\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

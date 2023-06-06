@@ -1,13 +1,10 @@
+
 using System.ComponentModel.DataAnnotations;
-using Microsoft.EntityFrameworkCore;
 
-namespace Algorithms.Models
-{   
-     public class Algorithm
+namespace Algorithms.Dtos
+{
+    public class AlgorithmCreateDto
     {
-        [Key]
-        public int Id { get; set; }
-
         [Required]
         [MaxLength(250)]
         public string algorithmname { get; set; }
@@ -16,8 +13,6 @@ namespace Algorithms.Models
         [MaxLength(2000)]
         public string description { get; set; } 
         [Required]
-        public string usecases {get; set; } 
-
+        public string usecases {get; set; }     
     }
-
 }
