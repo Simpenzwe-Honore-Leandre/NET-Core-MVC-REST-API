@@ -1,4 +1,4 @@
-![image](https://github.com/Simpenzwe-Honore-Leandre/NET-Core-MVC-REST-API/assets/98513681/e85df6ef-40c4-44d9-ac3e-a19e443ded15)# NET-Core-MVC-REST-API
+# NET-Core-MVC-REST-API
 With this API, you can easily store and retrieve information about algorithms, including their names, descriptions, and use cases.
 
 <strong>TO RUN</strong>
